@@ -116,3 +116,9 @@ Thumbs.db
 # Config files are OK (use templates for secrets)
 !cosmological_params.yml
 !.zenodo.json
+
+# === PROPRIETARY PARAMETERS DETAILS ===
+# Keep implementation parameters private
+config/cosmological_params.yml
+builds/*/manifest.json
+!builds/*/manifest.json.template
