@@ -1,0 +1,8 @@
+# SHA-256 checksums for UHA Official v1.0.0
+# Generated: 2025-10-24
+# Verify with: sha256sum -c checksums.sha256
+
+# Example checksums (replace with actual after build)
+# e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  uha_official-1.0.0-cp39-cp39-linux_x86_64.whl
+# 38b060a751ac96384cd9327eb1b1e36a21fdb71114be07434c0cc7bf63f6e1da  uha_official-1.0.0-cp39-cp39-macosx_arm64.whl
+# 5891b5b522d5df086d0ff0b110fbd9d21bb4fc7163af34d08286a2e846f6be03  uha_official-1.0.0-cp39-cp39-win_amd64.whl

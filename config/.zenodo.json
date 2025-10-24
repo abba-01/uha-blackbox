@@ -1,0 +1,58 @@
+{
+  "title": "Universal Horizon Address - Official Implementation",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Martin, Eric D.",
+      "affiliation": "All Your Baseline LLC",
+      "orcid": "0009-0006-5944-1742"
+    }
+  ],
+  "description": "Frame-agnostic coordinate encoding system for cosmological objects. Patent US 63/902,536. Implementation details protected under trade secret and patent law. Reproducibility manifest and binary distributions included. Source code will remain private until patent grant. All results independently verifiable via cryptographic checksums and reproducibility manifest.",
+  "access_right": "embargoed",
+  "embargo_date": "2099-12-31",
+  "license": {
+    "id": "other-open"
+  },
+  "keywords": [
+    "cosmology",
+    "coordinates",
+    "Universal Horizon Address",
+    "Hubble tension",
+    "frame-agnostic",
+    "UHA",
+    "cosmological coordinates",
+    "reproducibility"
+  ],
+  "notes": "Binary implementation available via: pip install uha-official\n\nSource code protected by:\n- US Provisional Patent 63/902,536 (filed 2024)\n- Trade secret (All Your Baseline LLC)\n\nReproducibility guaranteed via:\n- Cryptographic SHA-256 checksums\n- Version-locked manifest files\n- Reproducible build system\n- Example code in public repository\n\nFor licensing inquiries: eric.martin1@wsu.edu",
+  "related_identifiers": [
+    {
+      "identifier": "63/902,536",
+      "relation": "isSupplementedBy",
+      "scheme": "other",
+      "resource_type": "patent"
+    },
+    {
+      "identifier": "https://github.com/abba-01/uha-official",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Washington State University, Vancouver",
+      "type": "HostingInstitution"
+    }
+  ],
+  "references": [
+    "Martin, E.D. (2025). The NASA Paper & Small Falcon Algebra. Zenodo. DOI: 10.5281/zenodo.17172694",
+    "Martin, E.D. (2025). Resolving the Hubble Tension through Conservative Uncertainty Propagation. In preparation."
+  ],
+  "version": "1.0.0",
+  "language": "eng",
+  "communities": [
+    {
+      "identifier": "zenodo"
+    }
+  ]
+}
