@@ -108,8 +108,7 @@ cat > manifest.json <<EOF
   "python_versions": ["3.9", "3.10", "3.11", "3.12"],
   "cosmology": {
     "H0_default": 67.4,
-    "Omega_m_default": 0.315,
-    "reference_frame": "ICRS2016"
+    "Omega_m_default": 0.315
   },
   "checksums_file": "checksums.sha256",
   "build_system": "proprietary",

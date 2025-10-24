@@ -122,3 +122,10 @@ Thumbs.db
 config/cosmological_params.yml
 builds/*/manifest.json
 !builds/*/manifest.json.template
+
+# === RESEARCH NOTES ===
+# Keep detailed progression documents private
+CHRONOLOGICAL_PROGRESSION*.md
+*_PROGRESSION*.md
+research_notes/
+private_notes/
