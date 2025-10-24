@@ -117,7 +117,7 @@ Thumbs.db
 !cosmological_params.yml
 !.zenodo.json
 
-# === PROPRIETARY PARAMETERS DETAILS ===
+# === PROPRIETARY PARAMETERS ===
 # Keep implementation parameters private
 config/cosmological_params.yml
 builds/*/manifest.json

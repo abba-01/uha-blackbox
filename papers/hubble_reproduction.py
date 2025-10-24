@@ -103,7 +103,7 @@ def main() -> Dict:
     print(f"  Gap: {initial_gap:.2f} km/s/Mpc")
     print()
 
-    # Merge using UHA framework (proprietary binary implementation)
+    # Merge using proprietary framework (binary implementation)
     print("🔀 Merging with proprietary epistemic correction...")
     print("  (Using proprietary binary implementation)")
     print()
