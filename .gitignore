@@ -1,0 +1,118 @@
+# UHA SSOT - Git Ignore
+# CRITICAL: Never commit sensitive files
+
+# === SECRETS ===
+# API Tokens
+*.env
+!*.env.template
+*_token*
+*.token
+
+# Signing Keys
+*.key
+*.pem
+*.p12
+*.pfx
+
+# === BINARIES ===
+# Never commit binaries to SSOT repo
+*.whl
+*.egg
+*.so
+*.dylib
+*.dll
+*.exe
+
+# === BUILD ARTIFACTS ===
+# Builds are tracked but binaries stay local
+builds/*/uha_official-*.whl
+builds/*/*.so
+builds/*/*.dylib
+builds/*/*.dll
+
+# === PYTHON ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# === OS ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# === LOGS ===
+# Keep log files but not large data
+*.log
+!sync.log
+!releases.csv
+
+# === TEMP FILES ===
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+
+# === PRIVATE DATA ===
+# Any file with "private" in name
+*private*
+*secret*
+*confidential*
+
+# === ALLOW THESE ===
+# Templates and examples are OK
+!*.template
+!*.example
+
+# Manifests and checksums are OK (no sensitive info)
+!manifest.json
+!checksums.sha256
+
+# Documentation is OK
+!README.md
+!*.md
+
+# Scripts are OK
+!*.sh
+!*.py
+
+# Config files are OK (use templates for secrets)
+!cosmological_params.yml
+!.zenodo.json
