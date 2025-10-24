@@ -1,6 +1,6 @@
 # UHA Official - Single Source of Truth (SSOT)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17388283.svg)](https://doi.org/10.5281/zenodo.17388283)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17435574.svg)](https://doi.org/10.5281/zenodo.17435574)
 
 **Universal Horizon Address - Official Implementation**
 
