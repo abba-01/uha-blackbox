@@ -1,5 +1,7 @@
 # UHA Official - Single Source of Truth (SSOT)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17388283.svg)](https://doi.org/10.5281/zenodo.17388283)
+
 **Universal Horizon Address - Official Implementation**
 
 > Private repository for building, releasing, and tracking UHA binary distributions.
