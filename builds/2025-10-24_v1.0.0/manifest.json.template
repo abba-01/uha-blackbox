@@ -3,7 +3,11 @@
   "build_date": "DATE",
   "patent": "US 63/902,536",
   "license": "Proprietary - All Your Baseline LLC",
-  "platforms": ["CONFIGURE_YOUR_PLATFORMS"],
-  "python_versions": ["CONFIGURE_VERSIONS"],
+  "platforms": ["CONFIGURE"],
+  "python_versions": ["CONFIGURE"],
+  "implementation": {
+    "method": "PROPRIETARY",
+    "features_enabled": ["CONFIGURE"]
+  },
   "notes": "Binary distribution only. Implementation details private."
 }

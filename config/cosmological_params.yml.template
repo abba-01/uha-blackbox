@@ -1,24 +1,22 @@
-# Default Cosmological Parameters for UHA
-# PRIVATE FILE - Contains your implementation details
-# Users: Copy to cosmological_params.yml and configure
+# Configuration Template for Proprietary Binary
+# Copy to cosmological_params.yml and configure
+# Field names obfuscated for patent protection
 
-# Hubble Constant (km/s/Mpc)
+# Standard Cosmology
 H0:
-  default: YOUR_H0_VALUE
-  planck2018: 67.4
-  local: 73.47
+  default: YOUR_VALUE
+  reference: 67.4
 
-# Matter Density Parameter
 Omega_m:
-  default: YOUR_OMEGA_M
+  default: YOUR_VALUE
 
-# UHA Encoding Parameters (CONFIGURE FOR YOUR IMPLEMENTATION)
-uha:
-  scale_factor_bits: YOUR_BITS
-  xi_bits: YOUR_BITS
-  direction_bits: YOUR_BITS
-  reference_frame: YOUR_FRAME
-  epoch: YOUR_EPOCH
+# Implementation Parameters (PROPRIETARY)
+encoding:
+  param_a: YOUR_VALUE  # Component A precision
+  param_b: YOUR_VALUE  # Component B precision  
+  param_c: YOUR_VALUE  # Component C precision
+  coord_system: YOUR_SYSTEM
+  ref_epoch: YOUR_EPOCH
 
 # Patent Information
 patent:
