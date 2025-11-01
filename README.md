@@ -397,3 +397,30 @@ This combination provides:
 **Last Updated**: 2025-10-24
 **License**: Proprietary - All Your Baseline LLC
 **Patent**: US 63/902,536
+
+---
+
+## 📚 Documentation
+
+Complete documentation is available in the [/docs](/docs) directory:
+
+- **[API Specification](docs/API_SPECIFICATION.md)** - Complete REST API reference
+- **[Integration Guide](docs/INTEGRATION_GUIDE.md)** - Platform-specific integration guides
+- **[Troubleshooting](docs/TROUBLESHOOTING.md)** - Common issues and solutions
+
+### Quick Links
+
+- 🚀 [Quick Start](QUICKSTART.md)
+- 🔧 [API Endpoints](docs/API_SPECIFICATION.md#endpoints)
+- 🐍 [Python Examples](docs/INTEGRATION_GUIDE.md#python-integration)
+- 📦 [Joomla Integration](docs/INTEGRATION_GUIDE.md#joomla-integration)
+- ❓ [FAQ](docs/TROUBLESHOOTING.md#faqs)
+
+---
+
+## 🔗 Related Repositories
+
+- **[multiresolution-cosmology](https://github.com/abba-01/multiresolution-cosmology)** - Research code and simulations
+- **[com_uha_joomla](https://github.com/abba-01/com_uha_joomla)** - Joomla component (coming soon)
+- **[ebios](https://github.com/abba-01/ebios)** - Epistemic BIOS cryptographic substrate
+
